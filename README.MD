@@ -3,3 +3,5 @@
 ---
 
 ## [Тз для мобильного приложения ](MOBILE-README.MD)
+
+## [Тз для web](WEB-README.MD)
