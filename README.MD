@@ -1,7 +1,3 @@
-# ТЗ для Хакатона в Пышме
+Про проект читайте в github wiki!
 
----
-
-## [Тз для мобильного приложения ](MOBILE-README.MD)
-
-## [Тз для web](WEB-README.MD)
+Link - https://github.com/Ge0rg25/UmomEkbDeploy/wiki
