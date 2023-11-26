@@ -104,6 +104,13 @@ services:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
       - ./frontend:/usr/share/nginx/html
 
+  statistics:
+    container_name: "statistics"
+    image: ge0rg25/umom-statistics
+    restart: always
+    networks:
+      - backend-network
+
 
 networks:
   backend-network:
