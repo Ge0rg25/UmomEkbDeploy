@@ -63,7 +63,7 @@ services:
   # --------------------- [ Backend ] ---------------------
   backend:
     container_name: "backend"
-    image: ge0rg25/umom-backend:latest
+    image: ge0rg25/katerinburg:v1
     depends_on:
       - auth
       - backend-database
