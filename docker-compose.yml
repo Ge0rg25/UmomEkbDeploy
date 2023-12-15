@@ -49,8 +49,6 @@ services:
 
   # --------------------- [ Backend Database ] ---------------------
   backend-database:
-    ports:
-      - "5432:5432"
     container_name: "backend-database"
     image: postgres:14
     environment:
