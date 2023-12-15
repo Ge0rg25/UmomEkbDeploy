@@ -5,5 +5,5 @@ VOLUME /etc/letsencrypt
 VOLUME /var/www/html
 
 # Запустк Certbot с нужными параметрами
-CMD ["certonly", "--webroot", "--webroot-path=/var/www/html", "--email", "Ge0rgiusGus@yandex.ru", "--agree-tos", "--no-eff-email", "-d", "umom.pro", "-d", "www.umom.pro", "-d", "backend.umom.pro", "-d", "auth.umom.pro", "-d", "analytics.umom.pro"]
+CMD ["certonly", "--webroot", "--webroot-path=/var/www/html", "--email", "Ge0rgiusGus@yandex.ru", "--agree-tos", "--no-eff-email", "-d", "umom.pro", "-d", "www.umom.pro", "-d", "backend.umom.pro", "-d", "auth.umom.pro", "-d", "analytics.umom.pro", "-d", "signal.umom.pro"]
 
