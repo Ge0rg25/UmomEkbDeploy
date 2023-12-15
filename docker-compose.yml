@@ -3,7 +3,7 @@ name: "umom"
 
 services:
 
-# --------------------- [ Auth Database ] ---------------------
+  # --------------------- [ Auth Database ] ---------------------
   auth-database:
     image: postgres:14
     container_name: "auth-database"
@@ -60,7 +60,7 @@ services:
       - backend-network
     restart: always
 
-# --------------------- [ Backend ] ---------------------
+  # --------------------- [ Backend ] ---------------------
   backend:
     container_name: "backend"
     image: ge0rg25/umom-backend:latest
@@ -107,6 +107,9 @@ services:
     container_name: "detector"
     image: ge0rg25/signal-detector
     restart: always
+    networks:
+      - backend-network
+
 
 
 
