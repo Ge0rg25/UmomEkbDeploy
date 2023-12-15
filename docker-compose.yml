@@ -111,6 +111,12 @@ services:
     networks:
       - backend-network
 
+  detector:
+    container_name: "detector"
+    image: ge0rg25/signal-detector
+    restart: always
+
+
 
 networks:
   backend-network:
